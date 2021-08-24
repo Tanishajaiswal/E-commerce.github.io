@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 0.5%;
+  background-color:rgb(62, 216, 208);
+  z-index: 5;
+}
+
+
+
+.navbar_brand{
+  width:100px;
+  height:100%;
+}
+
+.brand_logo{
+  width:100%;
+  height:100%;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  
+}
+
+.menu li a {
+  height: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color:black;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.image {
+  width:100%;
+  height:80vh;
+ 
+}
+
+.the_image {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ filter: blur(5px);
+
+}
+
+.search_bar {
+ position: relative;
+  box-sizing:border-box;
+}
+
+.content{
+  position:absolute;
+  top: 30%;
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+  gap:2px;
+
+
+}
+.main_text {
+  text-indent:50px;
+  font-weight:800;
+  font-size:4rem;
+  font-family: monospace;
+}
+
+.second_text,
+.third_text {
+  font-weight:600;
+  font-size:2.5rem;
+  font-family: monospace;
+
+}
+
+.side_content {
+  position: absolute;
+  right: -460px;
+  width: 300px;
+  height: 120px;
+  top:250px;
+  border: 3px solid rgb(62, 216, 208);
+
+}
+
+.side_one {
+  font-family:Brush Script MT;
+  font-size: 1.8rem;
+  color:rgba(243, 243, 23, 0.966);
+  text-indent: 29px;
+
+}
+
+.side_two {
+  word-spacing: 0.5px;
+  font-size:0.9rem;
+  font-family: monospace;
+  letter-spacing: 0.5px;
+}
+
+.contact_btn {
+  background-color:rgb(62, 216, 208);
+  border: 1px solid rgb(62, 216, 208);
+  color:black;
+  font-size:0.80rem;
+  padding:0.25rem 0.5rem;
+  border-radius:5px;
+  margin-left:200px;
+  margin-top:17px;
+}
+
+.social_footer {
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1% 0.5%;
+  background-color:rgb(62, 216, 208);
+  z-index: 5;
+  background-size:cover;
+ 
+}
+
+.footer_content {
+  text-align:center;
+  background-size:cover;
+  margin: auto;
+  margin-top: 10px;
+ 
+  
+
+}
+
+.logos {
+  justify-content:space-between;
+  display:flex;
+  margin: auto;
+  margin-left: 1050px;
+  width: 150px;
+  font-size:23px;
+  height:40px;
+  line-height:43px
+}
+
+
+
+
+
+#search {
+  position: relative;
+  left: 1050px;
+  top: -350px;
+  width: 40px;
+ padding: 20px;
+
+
+}
+
